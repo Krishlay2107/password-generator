@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(231deg, rgba(22, 6, 40, 1)0%, rgba(52, 28, 79, 1)50%, rgba(88, 7, 125, 1)100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    max-width: 400px;
+}
+
+
+.heading {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1px;
+    ;
+
+    color: rgba(234, 228, 242, 0.696);
+}
+
+.box {
+
+    border-radius: 1rem;
+    background-color: rgb(26, 2, 33);
+    width: 450px;
+    height: 40px;
+    margin: 1rem 0;
+
+
+    position: relative;
+
+
+}
+
+.mainbox {
+    color: yellow;
+    padding: 0.5em;
+    letter-spacing: 1px;
+    outline: none;
+    line-height: 20px;
+    margin-bottom: auto;
+    margin-top: 0px;
+    width: 70%;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    border-bottom-style: solid;
+    border-color: violet;
+   
+
+}
+
+.image1 {
+    background: transparent;
+    border: none;
+    margin-right: 1px;
+    top: 5%;
+    right: 1.5rem;
+transform: translateY(5%);
+transform: translateX(1.5rem);
+}
+
+.mainbox::placeholder {
+    position: absolute;
+    color: yellow;
+    left: 1.5rem;
+    top: 2%;
+
+    font-size: 1.5rem;
+    opacity: .66;
+    line-height: 30px;
+
+}
+.container2{
+    background-color:  rgb(26, 2, 33);
+    color: white;
+    width: 450px;
+    border-radius: 1rem;
+    margin-top: 30px;
+   
+    
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15rem;
+    
+}
+.PL{
+    margin-left: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+.NUM{
+    margin-right: .5rem;
+    color: yellow;
+}
+.slider {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 420px;
+    
+    border-radius: 50%;
+    background-color: #ef0d77; /* Set color for the thumb */
+    cursor: pointer;
+    margin-top: -5px; /* Align the thumb with the track */
+}
+.box3{
+    margin-left: 1rem;
+    font-size: 20px;
+    gap: 0 1rem;
+}
+.S{
+    
+    border-radius: 2px;
+    border-width: 5px;
+    margin: 10px 0;
+    
+
+
+}
+.gnt{
+background-color: rgb(209, 40, 209);
+display: flex;
+justify-content: center;
+border-radius: 10px;
+align-items: center;
+color:yellow;
+font-size: large;
+font-weight: 600;
+margin-left: 6rem;
+width: 300px;
+height: 2rem;
+bottom: 2rem;
+
+
+}
+.slider::-webkit-slider-thumb{
+    height: 2rem;
+    width: 2rem;
+    appearance: none;
+    border-radius: 50%;
+    background-color: var(--vb-yellow-);
+    cursor: pointer;
+}
